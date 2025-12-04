@@ -1,0 +1,27 @@
+{"ts": 1764603976.672462, "event_type": "honeypot_started"}
+{"ts": 1764603976.677918, "event_type": "service_started", "service": "telnet", "port": 2323, "bind_addr": "0.0.0.0"}
+{"ts": 1764603976.7050047, "event_type": "service_started", "service": "http", "port": 8080, "bind_addr": "0.0.0.0"}
+{"ts": 1764604093.4178314, "event_type": "connection_opened", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 57324, "dst_port": 2323}
+{"ts": 1764604099.8506448, "event_type": "login_attempt", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 57324, "dst_port": 2323, "username": "tatumk", "password": "12345", "success": false}
+{"ts": 1764604111.992579, "event_type": "command", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 57324, "dst_port": 2323, "command": "help"}
+{"ts": 1764604114.6836424, "event_type": "command", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 57324, "dst_port": 2323, "command": "ls"}
+{"ts": 1764604144.7063556, "event_type": "session_closed", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 57324, "dst_port": 2323, "duration_seconds": 51.288498878479004}
+{"ts": 1764604175.3226097, "event_type": "connection_opened", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 57326, "dst_port": 2323}
+{"ts": 1764604183.69925, "event_type": "login_attempt", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 57326, "dst_port": 2323, "username": "tatum", "password": "12345", "success": false}
+{"ts": 1764604185.7459252, "event_type": "command", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 57326, "dst_port": 2323, "command": "help"}
+{"ts": 1764604187.0271316, "event_type": "command", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 57326, "dst_port": 2323, "command": "ls"}
+{"ts": 1764604189.9629946, "event_type": "command", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 57326, "dst_port": 2323, "command": "uname"}
+{"ts": 1764604195.9558272, "event_type": "command", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 57326, "dst_port": 2323, "command": "whoami"}
+{"ts": 1764604202.252708, "event_type": "command", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 57326, "dst_port": 2323, "command": "exit"}
+{"ts": 1764604202.253248, "event_type": "session_closed", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 57326, "dst_port": 2323, "duration_seconds": 26.930681705474854}
+{"ts": 1764607312.5973606, "event_type": "honeypot_started"}
+{"ts": 1764607312.6019394, "event_type": "service_started", "service": "telnet", "port": 2323, "bind_addr": "0.0.0.0"}
+{"ts": 1764607312.6268303, "event_type": "service_started", "service": "http", "port": 8080, "bind_addr": "0.0.0.0"}
+{"ts": 1764607373.7465904, "event_type": "connection_opened", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 55028, "dst_port": 2323}
+{"ts": 1764607380.462634, "event_type": "login_attempt", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 55028, "dst_port": 2323, "username": "tatumk", "password": "12345", "success": false}
+{"ts": 1764607388.666218, "event_type": "command", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 55028, "dst_port": 2323, "command": "help"}
+{"ts": 1764607395.1023011, "event_type": "command", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 55028, "dst_port": 2323, "command": "ls"}
+{"ts": 1764607407.2656372, "event_type": "command", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 55028, "dst_port": 2323, "command": "uname"}
+{"ts": 1764607409.0634332, "event_type": "command", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 55028, "dst_port": 2323, "command": "whoami"}
+{"ts": 1764607418.3868384, "event_type": "command", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 55028, "dst_port": 2323, "command": "exit"}
+{"ts": 1764607418.3891838, "event_type": "session_closed", "service": "telnet", "src_ip": "10.0.2.3", "src_port": 55028, "dst_port": 2323, "duration_seconds": 44.6425507068634}
